@@ -682,7 +682,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: 0 auto;
 }
 
 .h1 {
@@ -1025,5 +1025,9 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .img-responsive {
+        display: flex;
+        margin: 0 auto;
     }
 }
