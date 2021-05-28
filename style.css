@@ -668,7 +668,6 @@ a {
 .hero-bloc-text {
     font-size: 40px;
     font-weight: bold;
-    text-shadow: 1px 1px 1px black;
 }
 
 .hero-bloc-text-sub {
@@ -746,7 +745,6 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    text-shadow: 1px 1px 1px black;
 }
 
 .portfolio-thumb {
