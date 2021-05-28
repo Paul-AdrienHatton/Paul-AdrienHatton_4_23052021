@@ -824,11 +824,13 @@ h4 {
 
 .bg-banniere {
     background-image:url("img/banniere/la-chouette-agence-banniere.jpeg");
+    aspect-ratio: 239/50;
 
     }
 
 .bg-presentation  {
     background-image:url("img/presentation/image-de-presentation.jpeg");
+    aspect-ratio: 239/50;
     }
 
 @media (max-width: 1024px) {
@@ -1043,5 +1045,6 @@ h4 {
     .img-responsive {
         display: flex;
         margin: 0 auto;
+        aspect-ratio: 1/1;
     }
 }
