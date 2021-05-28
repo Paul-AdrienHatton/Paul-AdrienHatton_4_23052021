@@ -823,23 +823,13 @@ h4 {
 }
 
 .bg-banniere {
-    background-image:url("img/banniere/la-chouette-agence-banniere-1920.jpeg");
+    background-image:url("img/banniere/la-chouette-agence-banniere.jpeg");
 
     }
-    @media only screen and (max-width: 1366px) {
-        .bg-banniere {
-          background-image: url("img/banniere/la-chouette-agence-banniere-1366.jpeg");
-        }
-      }
 
 .bg-presentation  {
-    background-image:url("img/presentation/image-de-presentatio-1920.jpeg");
+    background-image:url("img/presentation/image-de-presentation.jpeg");
     }
-    @media only screen and (max-width: 1366px) {
-        .bg-presentation {
-              background-image: url("img/presentation/image-de-presentation-1366.jpeg");
-        }
-        }
 
 @media (max-width: 1024px) {
     .bloc {
