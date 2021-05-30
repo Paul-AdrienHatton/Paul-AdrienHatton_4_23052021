@@ -824,13 +824,10 @@ h4 {
 
 .bg-banniere {
     background-image:url("img/banniere/la-chouette-agence-banniere.jpeg");
-    aspect-ratio: 239/50;
-
     }
 
 .bg-presentation  {
     background-image:url("img/presentation/image-de-presentation.jpeg");
-    aspect-ratio: 239/50;
     }
 
 @media (max-width: 1024px) {
@@ -856,13 +853,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px)  {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1045,6 +1042,5 @@ h4 {
     .img-responsive {
         display: flex;
         margin: 0 auto;
-        aspect-ratio: 1/1;
     }
 }
