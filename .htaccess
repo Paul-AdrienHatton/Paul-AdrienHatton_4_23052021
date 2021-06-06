@@ -1,5 +1,5 @@
-< IfModule  mod_expires.c >
-  ExpireActive le
+<IfModule  mod_expires.c>
+  ExpireActive on
 
  # Images 
   ExpiresByType image/jpeg  "access plus 1 year" 
@@ -29,4 +29,4 @@
   # Autres 
   ExpiresByType application/pdf  "access plus 1 year" 
   ExpiresByType image/vnd.microsoft.icon  "access plus 1 year" 
-</ IfModule >
+</IfModule >
